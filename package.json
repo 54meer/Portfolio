@@ -1,4 +1,5 @@
 {
+  "homepage": "https://54meer.github.io/Portfolio",
   "name": "portfolio_v2",
   "private": true,
   "version": "0.0.0",
@@ -6,7 +7,9 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "@react-pdf/renderer": "^3.4.4",
@@ -25,6 +28,7 @@
     "@types/react": "^18.0.28",
     "@types/react-dom": "^18.0.11",
     "@vitejs/plugin-react": "^3.1.0",
+    "gh-pages": "^6.1.1",
     "vite": "^4.2.0",
     "vite-plugin-svgr": "^4.2.0"
   }
