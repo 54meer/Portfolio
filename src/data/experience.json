@@ -1,0 +1,35 @@
+{
+    "title": "Work Experience",
+    "subtitle": "My professional journey",
+    "experiences": [
+        {
+            "id": 1,
+            "company": "Objectide Technologies",
+            "position": "Software Engineer",
+            "duration": "2023 - Present",
+            "location": "Sweden | Remote",
+            "description": "Lead the development of responsive web applications using React, TypeScript, and modern frontend technologies.",
+            "achievements": [
+                "Mentored 3 junior developers and conducted code reviews",
+                "Collaborated with cross-functional teams to deliver high-quality code",
+                "Learned how to use Docker for containerization and deployment",
+                "Utilized Git for version control and collaboration",
+                "Maintained and improved the codebase, ensuring its maintainability and scalability",
+                "Collaborated with clients to understand their needs and deliver solutions"
+            ],
+            "technologies": [
+                "React",
+                "TypeScript",
+                "Node.js",
+                "Docker",
+                "HTML",
+                "CSS",
+                "Azure",
+                "MongoDB",
+                "Git"
+            ],
+            "logo": "/src/assets/companies/objectide-logo.png",
+            "type": "full-time"
+        }
+    ]
+}

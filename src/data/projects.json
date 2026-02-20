@@ -1,0 +1,35 @@
+{
+    "title": "My Projects",
+    "projects": [
+        {
+            "id": 1,
+            "title": "Chat App",
+            "description": "A real-time chat application built with the MERN stack. Users can sign up, log in, chat, and send messages instantly. Includes user authentication, profile management, and real-time updates using Socket.io.",
+            "github": "https://github.com/54meer/chat_app",
+            "image": [
+                "/src/assets/chatApp/login.png",
+                "/src/assets/chatApp/selected.png",
+                "/src/assets/chatApp/settings.png",
+                "/src/assets/chatApp/notselected.png",
+                "/src/assets/chatApp/profile.png"
+            ],
+            "stack": [
+                "MERN Stack",
+                "React",
+                "Redux",
+                "Node.js",
+                "MongoDB",
+                "Express",
+                "JavaScript",
+                "Tailwind CSS",
+                "Socket.io"
+            ],
+            "features": [
+                "Real-time messaging with Socket.io",
+                "User authentication and profile management",
+                "Responsive UI with Tailwind CSS",
+                "Redux for state management"
+            ]
+        }
+    ]
+}
