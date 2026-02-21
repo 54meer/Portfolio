@@ -46,8 +46,11 @@ export default function ContactForm() {
     const data = new FormData(form);
     
     try {
-      await fetch("/", {
+      await fetch("https://formspree.io/f/mdallqzg", {
         method: "POST",
+        headers: {
+          "Accept": "application/json"
+        },
         body: data,
       });
 
@@ -66,11 +69,8 @@ export default function ContactForm() {
       <div className="w-full max-w-xl bg-white rounded-2xl shadow-xl p-8">
         <h2 className="text-3xl font-semibold text-gray-800 mb-2">Contact</h2>
         <form
-          name="contact"
-          method="POST"
-          data-netlify="true"
-          onSubmit={handleSubmit} 
-          className="space-y-5"
+          onSubmit={handleSubmit}
+          className="space-y-2"
         >
           <input type="hidden" name="form-name" value="contact" />
           <div>
